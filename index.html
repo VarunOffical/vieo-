@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>video casting platform</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="logo.svg" />
+          <p>Varun</p>
+        </div>
+        <div class="information">
+          <p>
+            Made by ❤️
+            <a href="https://github.com/VarunOffical" target="_blank"
+              >Varun Developer</a
+            >
+          </p>
+        </div>
+      </nav>
+      <p id="message"></p>
+    </div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/1.jpg" style="width: 50%" />
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/2.jpeg" style="width: 50%" />
+        <div class="text">Caption Two</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/3.jpeg" style="width: 50%" />
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="images/4.jpeg" style="width: 50%" />
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="mySlides fade">
+        <img src="5.jpg" style="width: 50%" />
+        <div class="text">Caption Three</div>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br />
+
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
